@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sequence Memory</title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <link rel="stylesheet" href="./css/main.css" />
+
+    </head>
+    <body>
+        <div class="before-game-start">
+            <div class="glowing-logo">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square">
+                    <div class="inside-square"></div>
+                </div>
+            </div>
+            <p class="gameName">Sequence Memory Test</p>
+            <p
+                style="
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    font-size: x-large;
+                "
+            >
+                Memorize the pattern
+            </p>
+            <button class="start-button">Start</button>
+        </div>
+        <div class="after-game-start hidden">
+            <div class="level">Level: <span class="current-level">1</span></div>
+            <div class="boxes-container">
+                <div value="0" class="boxes"></div>
+                <div value="1" class="boxes"></div>
+                <div value="2" class="boxes"></div>
+                <div value="3" class="boxes"></div>
+                <div value="4" class="boxes"></div>
+                <div value="5" class="boxes"></div>
+                <div value="6" class="boxes"></div>
+                <div value="7" class="boxes"></div>
+                <div value="8" class="boxes"></div>
+            </div>
+        </div>
+        <div class="after-game-ended">
+            <div class="glowing-logo">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square">
+                    <div class="inside-square"></div>
+                </div>
+            </div>
+            <p
+                style="
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    font-size: x-large;
+                "
+            >
+                Sequence Memory
+            </p>
+            <div class="final-level">Level 1</div>
+            <button class="try-again">Try Again</button>
+        </div>
+
+        <audio preload= "auto" src="./sounds/key13.mp3" id="key13"></audio>
+        <script src="main.js"></script>
+    </body>
+</html>

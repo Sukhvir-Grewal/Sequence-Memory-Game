@@ -1,0 +1,42 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1696879169495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1696879174920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n         <meta charset=\"UTF-8\" />\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n         <title>Document</title>\r\n         <link rel=\"stylesheet\" href=\"./css/main.css\" />\r\n-        \r\n+        <link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\r\n+\r\n     </head>\r\n     <body>\r\n         <div class=\"before-game-start\">\r\n             <div class=\"glowing-logo\">\r\n"
+                },
+                {
+                    "date": 1696879204102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         <meta charset=\"UTF-8\" />\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n         <title>Document</title>\r\n         <link rel=\"stylesheet\" href=\"./css/main.css\" />\r\n-        <link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\r\n+        <link rel=\"icon\" type=\"image/x-icon\" href=\"./favicon.ico\">\r\n \r\n     </head>\r\n     <body>\r\n         <div class=\"before-game-start\">\r\n"
+                },
+                {
+                    "date": 1696879211124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         <meta charset=\"UTF-8\" />\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n         <title>Document</title>\r\n         <link rel=\"stylesheet\" href=\"./css/main.css\" />\r\n-        <link rel=\"icon\" type=\"image/x-icon\" href=\"./favicon.ico\">\r\n+        <link rel=\"icon\" type=\"image/x-icon\" href=\"./images/favicon.ico\">\r\n \r\n     </head>\r\n     <body>\r\n         <div class=\"before-game-start\">\r\n"
+                },
+                {
+                    "date": 1696879243816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n     <head>\r\n         <meta charset=\"UTF-8\" />\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n         <title>Document</title>\r\n+        <link rel=\"icon\" type=\"image/x-icon\" href=\"./images/favicon.ico\">\r\n         <link rel=\"stylesheet\" href=\"./css/main.css\" />\r\n-        <link rel=\"icon\" type=\"image/x-icon\" href=\"./images/favicon.ico\">\r\n \r\n     </head>\r\n     <body>\r\n         <div class=\"before-game-start\">\r\n"
+                },
+                {
+                    "date": 1696879264783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"en\">\r\n     <head>\r\n         <meta charset=\"UTF-8\" />\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n-        <title>Document</title>\r\n+        <title>Sequence </title>\r\n         <link rel=\"icon\" type=\"image/x-icon\" href=\"./images/favicon.ico\">\r\n         <link rel=\"stylesheet\" href=\"./css/main.css\" />\r\n \r\n     </head>\r\n"
+                },
+                {
+                    "date": 1696879270534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"en\">\r\n     <head>\r\n         <meta charset=\"UTF-8\" />\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n-        <title>Sequence </title>\r\n+        <title>Sequence Mem</title>\r\n         <link rel=\"icon\" type=\"image/x-icon\" href=\"./images/favicon.ico\">\r\n         <link rel=\"stylesheet\" href=\"./css/main.css\" />\r\n \r\n     </head>\r\n"
+                }
+            ],
+            "date": 1696879169495,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"UTF-8\" />\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n        <title>Document</title>\r\n        <link rel=\"stylesheet\" href=\"./css/main.css\" />\r\n        \r\n    </head>\r\n    <body>\r\n        <div class=\"before-game-start\">\r\n            <div class=\"glowing-logo\">\r\n                <div class=\"square\"></div>\r\n                <div class=\"square\"></div>\r\n                <div class=\"square\"></div>\r\n                <div class=\"square\">\r\n                    <div class=\"inside-square\"></div>\r\n                </div>\r\n            </div>\r\n            <p class=\"gameName\">Sequence Memory Test</p>\r\n            <p\r\n                style=\"\r\n                    font-family: 'Montserrat', sans-serif;\r\n                    color: white;\r\n                    font-size: x-large;\r\n                \"\r\n            >\r\n                Memorize the pattern\r\n            </p>\r\n            <button class=\"start-button\">Start</button>\r\n        </div>\r\n        <div class=\"after-game-start hidden\">\r\n            <div class=\"level\">Level: <span class=\"current-level\">1</span></div>\r\n            <div class=\"boxes-container\">\r\n                <div value=\"0\" class=\"boxes\"></div>\r\n                <div value=\"1\" class=\"boxes\"></div>\r\n                <div value=\"2\" class=\"boxes\"></div>\r\n                <div value=\"3\" class=\"boxes\"></div>\r\n                <div value=\"4\" class=\"boxes\"></div>\r\n                <div value=\"5\" class=\"boxes\"></div>\r\n                <div value=\"6\" class=\"boxes\"></div>\r\n                <div value=\"7\" class=\"boxes\"></div>\r\n                <div value=\"8\" class=\"boxes\"></div>\r\n            </div>\r\n        </div>\r\n        <div class=\"after-game-ended\">\r\n            <div class=\"glowing-logo\">\r\n                <div class=\"square\"></div>\r\n                <div class=\"square\"></div>\r\n                <div class=\"square\"></div>\r\n                <div class=\"square\">\r\n                    <div class=\"inside-square\"></div>\r\n                </div>\r\n            </div>\r\n            <p\r\n                style=\"\r\n                    font-family: 'Montserrat', sans-serif;\r\n                    color: white;\r\n                    font-size: x-large;\r\n                \"\r\n            >\r\n                Sequence Memory\r\n            </p>\r\n            <div class=\"final-level\">Level 1</div>\r\n            <button class=\"try-again\">Try Again</button>\r\n        </div>\r\n\r\n        <audio preload= \"auto\" src=\"./sounds/key13.mp3\" id=\"key13\"></audio>\r\n        <script src=\"main.js\"></script>\r\n    </body>\r\n</html>\r\n"
+        }
+    ]
+}

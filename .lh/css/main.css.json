@@ -1,0 +1,18 @@
+{
+    "sourceFile": "css/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1696878880746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1696878880746,
+            "name": "Commit-0",
+            "content": "@import url(\"https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Onest&display=swap\");\r\n@import url(\"./keyframes.css\");\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: \"Montserrat\", sans-serif;\r\n}\r\nbody {\r\n    background-color: #2b87d1;\r\n}\r\n\r\n.before-game-start {\r\n    height: 100vh;\r\n    width: 100vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n}\r\n.after-game-start {\r\n    height: 100vh;\r\n    width: 100vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n}\r\n\r\n.level {\r\n    font-size: xx-large;\r\n    position: relative;\r\n    bottom: 40px;\r\n    color: rgb(189, 185, 185);\r\n}\r\n.current-level {\r\n    color: white;\r\n}\r\n.boxes-container {\r\n    height: 400px;\r\n    width: 400px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n}\r\n.boxes {\r\n    height: 120px;\r\n    width: 120px;\r\n    background-color: #2472c0;\r\n    margin: 5px;\r\n    border-radius: 10px;\r\n}\r\n\r\n.glowing-logo {\r\n    height: 115px;\r\n    width: 110px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n    /* animation: glowLogo 2s ease-out infinite; */\r\n}\r\n\r\n.square {\r\n    height: 48px;\r\n    width: 48px;\r\n    border-radius: 10px;\r\n    background-color: white;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.inside-square {\r\n    height: 30px;\r\n    width: 30px;\r\n    background-color: #2b87d1;\r\n}\r\n\r\n.gameName {\r\n    font-size: 80px;\r\n    color: white;\r\n}\r\n\r\n.start-button {\r\n    width: 110px;\r\n    height: 50px;\r\n    background-color: yellow;\r\n    border: none;\r\n    border-radius: 5px;\r\n    font-size: large;\r\n    font-weight: 500;\r\n    margin-top: 20px;\r\n    cursor: pointer;\r\n}\r\n\r\n.glow {\r\n    opacity: 0;\r\n    background-color: white;\r\n    animation: glow 1s;\r\n}\r\n\r\n.wrong-answer-blink {\r\n    opacity: 0;\r\n    background-color: rgb(235, 85, 85);\r\n    animation: wrongGlow 0.1s;\r\n}\r\n\r\n.after-game-ended{\r\n    height: 100vh;\r\n    width: 100vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n}\r\n\r\n.final-level{\r\n    font-size: 90px;\r\n    color: white;\r\n}\r\n\r\n.try-again{\r\n    width: 110px;\r\n    height: 50px;\r\n    background-color: #a1c2db;\r\n    color: black;\r\n    border: none;\r\n    border-radius: 5px;\r\n    font-size: large;\r\n    font-weight: 500;\r\n    margin-top: 20px;\r\n    cursor: pointer;\r\n}\r\n.hidden {\r\n    display: none;\r\n}\r\n"
+        }
+    ]
+}
